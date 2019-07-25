@@ -6,8 +6,6 @@ export default class CountReactPanel extends Component {
     const { countReaction } = this.props;
     let items = []
     countReaction.forEach(element => {
-
-    console.log(element.total)
       items.push(
         <View style={styles.countDetails} key={element.id}>
           <Text style={styles.totalNumber}>{element.total}</Text>
