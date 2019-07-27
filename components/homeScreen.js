@@ -23,7 +23,7 @@ export default class HomeScreen extends Component {
         <View style={{ flex: 6.5 }}>
           <ImageContent imageData={content} />
         </View>
-        <View style={{ flex: 1, paddingHorizontal: 30 }}>
+        <View style={{ flex: 1, paddingVertical: 17 }}>
           <NavigationBarBottom />
         </View>
       </View>
